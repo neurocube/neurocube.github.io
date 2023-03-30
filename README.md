@@ -1,1 +1,5 @@
-# neurocube.github.io
+# NeuroCube
+
+RESEARCH CONSULTING FOR LARGE-SCALE DATA ANALYTICS
+
+<i>WEb Under Construction ...</i>
