@@ -241,7 +241,7 @@ p { color: var(--muted); }
 
 .vertical-align { display: flex; align-items: center; flex-wrap: wrap; }
 
-#automation {
+.automation-section {
   background: #f6f8fb;
 }
 
