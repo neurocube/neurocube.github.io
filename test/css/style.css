@@ -242,7 +242,7 @@ p { color: var(--muted); }
 .vertical-align { display: flex; align-items: center; flex-wrap: wrap; }
 
 .tacit-panel {
-  background: #ffffff;
+  background: #f0f0f0;
   border: 1px solid rgba(16,21,31,0.1);
   border-radius: 28px;
   padding: 24px;
