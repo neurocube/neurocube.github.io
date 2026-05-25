@@ -477,6 +477,18 @@ p { color: var(--muted); }
 
 .trusted-section { display: none; }
 
+.trusted-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.35rem;   /* match your h3 size */
+  font-weight: 700;
+  line-height: 1.3;
+  color: #2f3438;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
 .trusted-inline {
   margin-top: 34px;
   padding-top: 34px;
