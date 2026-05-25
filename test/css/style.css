@@ -271,10 +271,6 @@ p { color: var(--muted); }
 
 .tacit-step p { margin: 0; }
 
-#automation {
-  background: #BFBFBF;
-}
-
 .inline-link {
   display: inline-block;
   margin-top: 16px;
@@ -379,6 +375,15 @@ p { color: var(--muted); }
   text-align: center;
   font-size: 14px;
 }
+
+#automation {
+  background: #BFBFBF;
+}
+
+#team {
+  background: #BFBFBF;
+}
+
 
 @media (max-width: 991px) {
   .header-inner { display: block; padding-top: 14px; padding-bottom: 14px; }
