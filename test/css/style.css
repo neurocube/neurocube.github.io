@@ -272,7 +272,7 @@ p { color: var(--muted); }
 .tacit-step p { margin: 0; }
 
 #automation {
-  background: #f6f8fb;
+  background: #f60000;
 }
 
 .inline-link {
