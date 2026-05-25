@@ -241,12 +241,8 @@ p { color: var(--muted); }
 
 .vertical-align { display: flex; align-items: center; flex-wrap: wrap; }
 
-.automation-section {
-  background: #f6f8fb;
-}
-
 .tacit-panel {
-  background: #f0f0f0;
+  background: #ffffff;
   border: 1px solid rgba(16,21,31,0.1);
   border-radius: 28px;
   padding: 24px;
@@ -274,6 +270,10 @@ p { color: var(--muted); }
 }
 
 .tacit-step p { margin: 0; }
+
+#automation {
+  background: #f6f8fb;
+}
 
 .inline-link {
   display: inline-block;
