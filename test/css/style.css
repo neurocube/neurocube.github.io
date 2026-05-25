@@ -330,11 +330,32 @@ p { color: var(--muted); }
   box-shadow: 0 22px 60px rgba(16,21,31,0.1);
 }
 
-.portrait-card img {
+.portrait-rollover {
+  position: relative;
   width: 100%;
   height: 360px;
-  object-fit: cover;
+  margin: 0;
+  overflow: hidden;
   border-radius: 18px;
+}
+
+.portrait-rollover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.portrait-hover {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 180ms ease-in-out;
+}
+
+.portrait-rollover:hover .portrait-hover,
+.portrait-rollover:focus-within .portrait-hover {
+  opacity: 1;
 }
 
 .contact-section {
@@ -372,4 +393,55 @@ p { color: var(--muted); }
   .hero-section { min-height: auto; padding: 130px 0 75px; }
   .feature-card, .team-text-card, .contact-card { padding: 26px; }
   .tacit-panel { margin-top: 34px; }
+}
+
+.analytics-showcase {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 48px;
+  padding: 28px;
+  background: rgba(255,255,255,0.035);
+  border: 1px solid var(--line);
+  border-radius: 28px;
+}
+
+.analytics-showcase > div { margin-bottom: 0; }
+
+.showcase-image {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.12);
+  box-shadow: 0 20px 70px rgba(0,0,0,0.28);
+}
+
+.analytics-showcase h3 { color: var(--white); }
+
+.trusted-section {
+  padding: 64px 0;
+  background: var(--bg-soft);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.trusted-inner {
+  text-align: center;
+}
+
+.trusted-inner .eyebrow {
+  color: rgba(122,224,197,0.55);
+  margin-bottom: 22px;
+}
+
+.trusted-inner img {
+  max-width: 760px;
+  width: 100%;
+  margin: 0 auto;
+  opacity: 0.34;
+  filter: grayscale(1);
+}
+
+@media (max-width: 991px) {
+  .analytics-showcase { padding: 22px; }
+  .analytics-showcase .showcase-image { margin-bottom: 28px; }
 }
